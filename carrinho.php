@@ -68,7 +68,7 @@ if (isset($_GET['acao'])) {
                 <th width="80">Remover</th>
             </tr>
         </thead>
-        <form action="?acao=update" method="GET">
+        <form action="?acao=update" method="POST">
             <tfoot>
                 <tr>
                     <td colspan="5"><input type="submit" value="Atualizar carrinho"></td>
